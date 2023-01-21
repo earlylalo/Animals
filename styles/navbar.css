@@ -10,6 +10,11 @@ nav ul {
 nav ul li {
     padding: 5px;
     background-color: aqua;
+    border-radius: 20px;
+}
+nav ul li:hover {
+    background-color: green;
+    border: 1px solid red;
 }
 nav ul li a {
     text-decoration: none;
