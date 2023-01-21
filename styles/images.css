@@ -6,4 +6,6 @@ section.images div {
     border: 1px solid black;
     flex: 1;
     padding: 40px;
+    font-size: larger;
+    font-weight: 500;
 }
