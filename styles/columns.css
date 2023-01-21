@@ -1,0 +1,10 @@
+section.columns {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+section.columns .col {
+    border: 1px solid blue;
+    flex: 1;
+    padding: 20px;
+}

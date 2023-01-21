@@ -1,0 +1,9 @@
+section.images {
+    display: flex;
+    flex-wrap: wrap;    
+}
+section.images div {
+    border: 1px solid black;
+    flex: 1;
+    padding: 40px;
+}
