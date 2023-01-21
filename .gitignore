@@ -1,0 +1,6 @@
+# Use to ignore all files with specific file extension
+# for example
+# *.txt -- this will ignore all files with .txt file extension
+
+
+DeveloperName.txt
