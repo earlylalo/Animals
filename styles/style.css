@@ -18,7 +18,7 @@ div.background-image {
 }
 blockquote {
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: rgb(240, 239, 239);
     transform: translate(-50%, -50%);
     top: 53%;
     left: 50%;
@@ -28,7 +28,7 @@ blockquote {
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 blockquote p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 10px;
     font-weight: 500;
 }
