@@ -16,15 +16,21 @@ section.navigation-bar div h1 {
 }
 
 /* nAgivation navs */
-
+section.navigation-bar div.navigation-navs nav {
+    margin: 10px 50px;
+}
 section.navigation-bar div.navigation-navs nav ul.navs{
-    margin: 10px 10px;
     display: flex;
+    list-style: none;
     justify-content: space-between;
 }
 section.navigation-bar div.navigation-navs nav ul.navs li {
-
+    flex: 1;
+    text-align: center;
+    padding: 10px;
 }
 section.navigation-bar div.navigation-navs nav ul.navs li a {
-    
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
