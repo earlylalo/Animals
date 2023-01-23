@@ -14,3 +14,17 @@ section.navigation-bar div h1 {
     font-size: 1.5rem;
     letter-spacing: 2px;
 }
+
+/* nAgivation navs */
+
+section.navigation-bar div.navigation-navs nav ul.navs{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+section.navigation-bar div.navigation-navs nav ul.navs li {
+
+}
+section.navigation-bar div.navigation-navs nav ul.navs li a {
+    
+}
