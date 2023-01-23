@@ -23,7 +23,7 @@ blockquote {
     transform: translate(-50%, -50%);
     padding: 10px;
     text-align: center;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 blockquote p {
     font-size: 2.5em;
