@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 div.background-image {
@@ -18,17 +19,19 @@ div.background-image {
 blockquote {
     position: absolute;
     color: rgb(255, 255, 255);
-    top: 55%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    top: 53%;
+    left: 50%;
     padding: 10px;
     text-align: center;
+    letter-spacing: 1.5px;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 blockquote p {
-    font-size: 2.5em;
+    font-size: 1rem;
     margin: 10px;
+    font-weight: 500;
 }
 blockquote cite {
-    font-size: 1.5em;
+    font-size: 1rem;
 }
