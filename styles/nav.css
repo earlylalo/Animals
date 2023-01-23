@@ -8,9 +8,9 @@ section.navigation-bar a {
 section.navigation-bar div.navigation-header {
     background-color: rgba(0, 0, 0, 0.301);
     width: 100vw;
-    padding: 20px;
+    padding: 20px 10px;
 }
 section.navigation-bar div h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
 }
