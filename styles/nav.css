@@ -21,6 +21,7 @@ section.navigation-bar div.navigation-navs nav {
 }
 section.navigation-bar div.navigation-navs nav ul.navs{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
 }
