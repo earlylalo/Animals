@@ -1,5 +1,6 @@
 section.navigation-bar {
     position: absolute;
+    width: 100%;
 }
 section.navigation-bar a {
     text-decoration: none;
@@ -7,7 +8,7 @@ section.navigation-bar a {
 }
 section.navigation-bar div.navigation-header {
     background-color: rgba(0, 0, 0, 0.301);
-    width: 100vw;
+    width: 100%;
     padding: 20px 10px;
 }
 section.navigation-bar div h1 {
@@ -17,7 +18,7 @@ section.navigation-bar div h1 {
 
 /* nAgivation navs */
 section.navigation-bar div.navigation-navs nav {
-    margin: 10px 50px;
+    margin: 0 50px;
 }
 section.navigation-bar div.navigation-navs nav ul.navs{
     display: flex;
@@ -29,6 +30,10 @@ section.navigation-bar div.navigation-navs nav ul.navs li {
     flex: 1;
     text-align: center;
     padding: 10px;
+}
+section.navigation-bar div.navigation-navs nav ul.navs li:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    border-bottom: inset 1px white;
 }
 section.navigation-bar div.navigation-navs nav ul.navs li a {
     font-size: 1rem;
