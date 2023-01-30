@@ -25,6 +25,7 @@ nav .nav-logo a{
     font-size: 1.3rem;
     text-decoration: none;
     color: antiquewhite;
+    text-shadow: -1px 0px 20px #12A131;
 }
 
 /* Navigation Bar */
