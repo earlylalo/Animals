@@ -41,9 +41,10 @@ nav .nav-links li a {
     text-decoration: none;
     color: aliceblue;
     font-size: 1.1rem;
+    border-radius: 10px;
 }
 nav .nav-links li a:hover {
-    background-color: rgba(0, 0, 0, 0.856);
+    border-bottom: 1px inset wheat;
 }
 
 
@@ -85,8 +86,12 @@ nav .nav-wrapper .nav-burger div {
         flex-direction: column;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.493);
-        /* transform: translateX(150%); */
+        transform: translateX(-150%);
+        z-index: 1;
+        transition: transform 0.5s ease-in-out;
     }
 }
 
-/* .nav-links */
+nav .nav-active {
+    transform: translateY(0%);
+}
