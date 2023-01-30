@@ -7,59 +7,19 @@ body {
     font-size: 62.5%;
     font-family: 'Signika Negative', sans-serif;
     background-color: black;
+    /* min-width: 500px; */
     /* font-family: Arial, Helvetica, sans-serif; */
 }
-div.background-image {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
-    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://zdblogs.zohocorp.com/tech-talk/sites/tech-talk/files/2020-12/sensory-surveillance.jpg); */
+.background-image {
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80); */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://zdblogs.zohocorp.com/tech-talk/sites/tech-talk/files/2020-12/sensory-surveillance.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     z-index: 0;
 }
-blockquote {
-    background-color: rgba(0, 0, 0, 0.158);
-    border-radius: 20px;
-    border-bottom: 1px solid white;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 53%;
-    left: 50%;
-    padding: 10px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    color: rgb(240, 239, 239);
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-}
-blockquote p {
-    font-size: 1.5rem;
-    margin: 10px;
-    font-weight: 600;
-}
-blockquote cite {
-    font-size: 1rem;
-}
-
-/* About */
-section.about {
-    color: rgb(240, 239, 239);
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-}
-section.about div.about-header {
-    font-size: 2rem;
-    margin-left: 40px;
-}
-section.about div.about-content {
-    font-size: 1.2rem;
-    padding: 10px 80px 10px 80px;
-    letter-spacing: 1px;
-    text-align: left;
-}
-@media only screen and (max-width: 600px) {
-    section.about div.about-content {
-        padding: 30px;
-        text-align:center;
-    }
+.wrapper {
+    max-width: 1200px;
 }
