@@ -41,7 +41,6 @@ nav .nav-links li a {
     text-decoration: none;
     color: aliceblue;
     font-size: 1.1rem;
-    border-radius: 10px;
 }
 nav .nav-links li a:hover {
     border-bottom: 1px inset wheat;
