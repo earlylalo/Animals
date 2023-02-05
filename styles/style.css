@@ -24,24 +24,3 @@ body {
     background-color: rgba(0, 0, 0, 0.596);
     z-index: 0;
 }
-.wrapper {
-    max-width: 1200px;
-    width: 100vw;
-}
-
-.wrapper .p-wrapper {
-    /* position: relative; */
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrapper .p-wrapper p {
-    color: #cadff1;
-    text-shadow: 0 0 8px #cadff1;
-    font-size: 1.7rem;
-    text-align: center;
-    padding: 3rem;
-    /* width: 90vw; */
-}
