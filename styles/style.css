@@ -8,20 +8,14 @@ body {
     font-size: 62.5%;
     font-family: 'Signika Negative', sans-serif;
     background-color: black;
-    min-height: 300px;
-    overflow-y: auto;
-    /* min-width: 500px; */
 }
 .background-image {
-    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80); */
-    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://zdblogs.zohocorp.com/tech-talk/sites/tech-talk/files/2020-12/sensory-surveillance.jpg); */
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0,0,0,1)), url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Animals-wallpaper-HD-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100vw;
-    /* background-color: rgba(0, 0, 0, 0.596); */
     z-index: 0;
 }
 a {
@@ -32,77 +26,40 @@ a {
 h1 {
     font-size: 2rem;
 }
-.burger {
-    position: absolute;
-    right: 0;
-    top: 8px;
-    display: none;
-    cursor: pointer;
-    z-index: 1;
-}
-/* For small screen size */
-@media only screen and (max-width: 600px) {
-    .burger {
-        display: block;
-    }
-}
-.burger div {
-    background-color: #ebedee;
-    width: 26px;
-    height: 4px;
-    margin: 3px;
-    border-radius: 10px;
-}
-/* For Layout */
+
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1500px;
-    min-width: 300px;
+    padding: 0 20px;
+    max-width: 1700px;
     margin: 0 auto;
-    /* padding: 0 9%; */
-    
 }
-
-/* For landing page */
-.landing-page {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+.header .burger {
+    display: none;
 }
-
-/* navigation */
+.header .burger div {
+    background-color: #e9ebec;
+    height: 4px;
+    width: 26px;
+    margin: 3px;
+    border-radius: 8px;
+}
+/* Header */
 .header {
-    background-color: rgba(0, 0, 0, 0.719);
+    justify-content: space-between;
     width: 100%;
-    padding: 0 9%;
     min-height: 50px;
     align-items: center;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
+}
+.header .logo {
+    padding: 10px;
 }
 .header .nav-links {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     list-style: none;
-    width: 70%;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-around;
 }
-
-@media only screen and (max-width: 800px) {
-    .logo {
-        width: 100%;
-    }
-    .header {
-        flex-direction: column;
-    }
-    .header .nav-links {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .header .nav-links li {
-        padding: 10px;
-    }
+.header .nav-links li {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.418);
 }
