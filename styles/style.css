@@ -38,73 +38,38 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+ul {
+    list-style: none;
+}
 
 .burger {
+    background-color: black;
     position: absolute;
-    top: 3%;
-    right: 3%;
+    right: 5%;
+    padding: 5px;
+    border-radius: 50%;
     cursor: pointer;
-    z-index: 1;
 }
-.burger div {
+
+.burger > div {
+    height: 3px;
+    width: 26px;
     background-color: #e9ebec;
-    height: 6px;
-    width: 30px;
-    border-radius: 8px;
     margin: 5px;
 }
 
-/* Navigation */
-/* .nav-wrapper {
-    position: absolute;
-    width: 100vw;
-    top: 0;
-} */
+.nav-wrapper::after {
+    display: block;
+}
+
 nav {
-    padding: 1% 2%;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.685);
-}
-.logo {
-    min-height: 40px;
     align-items: center;
-    z-index: 1;
-}
-.logo h1 {
-    padding: 5px;
-}
-.nav-links {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    min-height: 40px;
-    align-items: center;
-    padding: 25px;
-    text-align: center;
-    transform: translateY(-300%);
-    background-color: rgba(0, 0, 0, 0.685);
-    transition: transform 0.5s ease-in-out;
-    z-index: 0;
-    border-radius: 0 0 10px 10px;
 }
-.nav-active {
-    transform: translateY(0%);
+nav > * {
+    flex: 1;
 }
-.nav-links li {
-    list-style: none;
-}
-@media only screen and (max-width: 600px) {
-    .nav-links{
-        display: block;
-    }
-    .nav-links li {
-        margin: 20px;
-    }
-}
-.container {
-    padding: 2% 10%;
-    max-width: 1700px;
-    margin: 0 auto;
-    height: 100vh;
+nav ul {
+
 }
